@@ -1,0 +1,61 @@
+.card{
+    background-color: aquamarine;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    max-width: 700px;
+    padding: 10px;
+}
+
+.secinpt h4 {
+    font-size: large;
+
+}
+.secinpt input{
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+#searchicon{
+    width: 14px;
+}
+.secinpt button{
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px 10px;
+
+}
+.secout{
+    padding: 25px;
+
+}
+#cloud{
+    width: 80px;
+}
+.secout h6{
+    margin-top: -10px;
+}
+.secdetls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+}
+.humidity, .wind{
+    display: flex;
+    align-items: center;
+    text-align: left;    
+}
+.humidity img, .wind img{
+    margin-right: 10px;
+}
+.humidity p{
+    text-align: left;
+}
+.detlspercentage,.detlswindspeed{
+    font-size: 20px;
+    margin-bottom: -15px;
+}
